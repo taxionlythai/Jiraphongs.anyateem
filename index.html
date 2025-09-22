@@ -42,6 +42,7 @@
 
         header {
             padding: 20px 20px;
+            /* ลบ padding-top ออกจาก header เพราะเราจะไปปรับที่ .blinking-logo โดยตรง */
             text-align: center;
         }
         .main-title {
@@ -403,8 +404,9 @@
             width: 50%;
             max-width: 250px;
             height: auto;
-            display: block; /* ทำให้รูปภาพเป็น block-level element */
-            margin: 0 auto; /* จัดกึ่งกลางในแนวนอนอัตโนมัติ */
+            display: block; 
+            margin: 0 auto;
+            margin-top: 30px; /* เพิ่มระยะห่างด้านบน 30px ให้กับโลโก้โดยตรง */
         }
     </style>
 </head>
@@ -685,3 +687,4 @@
 
 </body>
 </html>
+
