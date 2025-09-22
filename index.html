@@ -1,4 +1,4 @@
- <!doctype html>
+<!doctype html>
 <html lang="th">
 <head>
     <meta charset="utf-8">
@@ -13,7 +13,7 @@
         :root {
             --primary-color: #007bff;
             --secondary-color: #f59e0b;
-            --dark-bg: #1a1a1a;
+            --dark-bg: #000000;
             --light-bg: #2c2c2c;
             --text-color: #f1f3f5;
             --heading-color: #f8f9fa;
@@ -398,11 +398,19 @@
                 height: 20px;
             }
         }
+        /* New CSS for blinking image */
+        .blinking-logo {
+            width: 50%;
+            max-width: 250px;
+            height: auto;
+            display: block; /* ทำให้รูปภาพเป็น block-level element */
+            margin: 0 auto; /* จัดกึ่งกลางในแนวนอนอัตโนมัติ */
+        }
     </style>
 </head>
 <body>
 
-   <img src="https://mongkol20010.wordpress.com/wp-content/uploads/2025/08/1000007731.jpg?w=400" alt="โปรไฟล์">
+   <img src="https://mongkol20010.wordpress.com/wp-content/uploads/2025/08/1000007735.jpg?w=1024" alt="โปรไฟล์" class="blinking-logo">
     </header>
     <section class="hero-section">
         <h1 class="main-title">เดินทางส่วนตัว สะดวกสบาย<br>ด้วยบริการรถเช่าพร้อมคนขับ</h1>
